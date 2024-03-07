@@ -1,9 +1,6 @@
 package main
 
-import (
-    "fmt"
-    "strconv"
-)
+import "fmt"
 
 func main() {
     var num1, num2 float64
@@ -22,7 +19,6 @@ func main() {
     fmt.Scanln(&operator)
 
     var result float64
-    var err error
 
     // Perform the arithmetic operation based on the operator
     switch operator {
